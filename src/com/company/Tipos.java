@@ -26,8 +26,8 @@ public class Tipos {
         boolean falso = false;
 
         // cadenas de texto
-        string nombre = "Abdel";
-        string apellido = "Abbassi";
+        String nombre = "Abdel";
+        String apellido = "Abbassi";
 
         // tipos envoltorio
 
