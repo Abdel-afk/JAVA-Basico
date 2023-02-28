@@ -4,8 +4,9 @@ public class Funciones {
 
     public static void main(String[] args) {
 
-        //holaMundo();
-        //holaMundo();
+        holaMundo();
+        holaMundo(4);
+        holaMundo("Nombre");
 
         holaMundo("Abdel");
 
@@ -20,7 +21,15 @@ public class Funciones {
     }
 
     private static void holaMundo(String name) {
-        System.out.println("Hola" + name);
+        System.out.println("Hola " + name);
+    }
+
+    private static void holaMundo(Integer number) {
+        System.out.println("El numero es: " + number);
+    }
+
+    private static void holaMundo(String name, String surname) {
+        System.out.println("Hola " + name + " " + surname);
     }
 
     private static String devolverHola() {
