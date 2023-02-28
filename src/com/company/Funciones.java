@@ -14,7 +14,7 @@ public class Funciones {
 
     }
 
-    private static void holaMundo() {
+    public static void holaMundo() {
         System.out.println("Hola Mundo");
         System.out.println("Hola Mundo");
     }
@@ -24,7 +24,11 @@ public class Funciones {
     }
 
     private static String devolverHola() {
-        return "hola";
+        return "Hola";
+    }
+
+    private static int sum(int num1, int num2) {
+        return num1 + num2;
     }
 
 }
