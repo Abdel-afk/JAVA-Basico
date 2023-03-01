@@ -1,4 +1,4 @@
-package com.company;
+package Cars;
 
 public class CarMain {
 
@@ -16,5 +16,14 @@ public class CarMain {
         cocheObj2.peso = 1350.8;
 
         System.out.println(cocheObj2);
+
+        CarElectric electricMotor = new CarElectric();
+
+        CarElectric.electricMotor = "ejemplo motor";
+        CarElectric.color = "blanco ";
+        CarElectric.fabricante = "Honda";
+        CarElectric.modelo = "civic";
+
+        System.out.println(CarElectric);
     }
 }
