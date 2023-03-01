@@ -2,9 +2,9 @@ package Cars;
 
 public class CarElectric extends Car {
 
-    String ElectricMotor;
+    String electricMotor;
 
-    public electricMotor() {
+    public ElectricMotor() {
 
     }
 
@@ -13,10 +13,15 @@ public class CarElectric extends Car {
         this.electricMotor = electricMotor;
     }
 
+    public CarElectric(String color, String fabricante, String modelo, String peso, String largo, String electricMotor) {
+        super(color, fabricante, modelo, peso, largo);
+        this.electricMotor = electricMotor;
+    }
+
     @Override
     public String toString() {
         return "CarElectric{" +
-                "ElectricMotor='" + ElectricMotor + '\'' +
+                "electricMotor='" + electricMotor + '\'' +
                 ", color='" + color + '\'' +
                 ", fabricante='" + fabricante + '\'' +
                 ", modelo='" + modelo + '\'' +

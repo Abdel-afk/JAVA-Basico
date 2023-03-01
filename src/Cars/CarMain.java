@@ -19,11 +19,17 @@ public class CarMain {
 
         CarElectric electricMotor = new CarElectric();
 
-        CarElectric.electricMotor = "ejemplo motor";
-        CarElectric.color = "blanco ";
-        CarElectric.fabricante = "Honda";
-        CarElectric.modelo = "civic";
+        carElectric.electricMotor = "ejemplo motor";
+        carElectric.color = "blanco ";
+        carElectric.fabricante = "Honda";
+        carElectric.modelo = "civic";
 
-        System.out.println(CarElectric);
+        System.out.println(carElectric);
+
+        CarElectric electricMotor2 = new CarElectric("blue", "beta", "romeo", 1500d, 4.99, "TEXT");
+
+
+        System.out.println(carElectric2);
+
     }
 }
