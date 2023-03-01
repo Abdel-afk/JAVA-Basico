@@ -31,5 +31,9 @@ public class CarMain {
 
         System.out.println(carElectric2);
 
+        carElectric2.acelerar(50);
+
+        System.out.println(carElectric2);
+
     }
 }

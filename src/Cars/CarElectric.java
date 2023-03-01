@@ -19,6 +19,12 @@ public class CarElectric extends Car {
     }
 
     @Override
+    public void acelerar(Integer cantidad) {
+        Integer cantidadAjustada = cantidad * 2;
+        super.acelerar(cantidadAjustada);
+    }
+
+    @Override
     public String toString() {
         return "CarElectric{" +
                 "electricMotor='" + electricMotor + '\'' +
