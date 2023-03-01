@@ -11,6 +11,10 @@ public class Car {
     Integer velocidad = 0;
 
     // contructores
+    public Car() {
+
+    }
+
     public Car(String color, String fabricante, String modelo, String peso, String largo) {
         this.color = color;
         this.fabricante = fabricante;
